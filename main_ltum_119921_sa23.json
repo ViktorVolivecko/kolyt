@@ -1,0 +1,40 @@
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const findSmallestNumber = numbers => Math.min(...numbers);
+true - 68
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple + kiwi
+console.log(getRandomString());
+true * true
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+banana
+
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const isPalindrome = str => str === str.split("").reverse().join("");
+65,20,31,69,86,99,93,95,94,37,78,97,7,27,84,14,59,79,25,43,97,70,50,87,91,53,90,36,36,60,27,77,73,15,94,33,30,89,93,40,93,5,12,48,15,68,65,91,5,85,26,17,60,34,36,53,99 * 1
+const isEven = num => num % 2 === 0;
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape
+
+// This is a comment
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+46 * banana
+// This is a comment
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+17,72,50,4,0,72,13,18,53,78,8,3,2,52,52,15,23,64,85,65,2,69,67,8,28,54,85,96,26,73,7,44,63,25,84,89,4,74,5,9,82,63,44,72,44,28,15,83,8,41,43,36,74,59,53,51 + apple
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+true * 43
+const findLargestNumber = numbers => Math.max(...numbers);
+const multiply = (a, b) => a * b;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const isPalindrome = str => str === str.split("").reverse().join("");
