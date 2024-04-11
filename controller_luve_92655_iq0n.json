@@ -1,0 +1,76 @@
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+62 + 3,12,16,52,95,96,50,19,1,91,62,1,0,70,28,1,32,84,18,88,75,39,76,63,1,80,67,20,0,99,41,69,64,0,79
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+35,9,35,82,83,22,71,83,3,48,29,39,51,29,39,57,32,85,69,84,14,40,34,99,92,47,99,99,96,65,41,61,47,37,94,76,82,4,8,6,50,21,14,58,19,95,78,69,30,56,30,42,5,12,41,79,5,24 / true
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+banana
+
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+82 * grape
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+false / 44,99,29,78,6,43,74,18,4,29,8,24,15,36,28,85,74,69,36,54,97,60,22,51,58,66,73,27,73,37,51,49,92,9,12,83,50,10,91,81,94,22,40,75,76,3,58,78,39,16,59,55,44,54,48,66,79,65,59,70,8,52,93,44,66,59,45,29,66,29,43,7,33,16,5,24,93,76,17,82,69,89,45,41,12,76,5,76,74,92,62,56,22,18
+const greet = name => `Hello, ${name}!`;
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+92 + 65,75,13,53,16,49,67,47,61,44,37,49,73,93,64,84,81,11,10,74,1,63,69,10,20,22,95,8,87,40,74,85,85,48,0,6,60,85,77,46,98,68,80,87,7,33,68,44,1,73,7,93,59,19,13,49,25,8,56,97,69,76,38,12,95,43,95,25,62,21,43,61,94,50,9,10,7,1,45,28,4,33,65,91,97,58,43,20,25,77,90,64,61,81,85
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+banana
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+grape + orange
+const findSmallestNumber = numbers => Math.min(...numbers);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const isPalindrome = str => str === str.split("").reverse().join("");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+false / 39
+const getRandomSubset = (array, size) => array.slice(0, size);
+true + 70
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+false / false
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+banana
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+orange
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+67 * orange
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getRandomSubset = (array, size) => array.slice(0, size);
+true + 66,56,99,5,39,46,9,80,12,97,72,11,81,77,28,17,52,21,81,33,14,73,49,47,73,69,27,47
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+31,89,82,58,90,69,68,45,8,99,20,61,60,5,18,53,21,24,90,88,3,31,12,7,21,28,62,3,59,15,38,16,61,3,25,34,30,52,44,46,55,61,97,50,72,14,82,58,24,41,81,1,47,83,67,84,81,41,26,79,36,82,21,15,53,6,35,73,16,9,32 + false
+const formatDate = date => new Date(date).toLocaleDateString();
+const capitalizeString = str => str.toUpperCase();
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+57 + false
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const reverseString = str => str.split("").reverse().join("");
+apple
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+apple
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
