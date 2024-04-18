@@ -1,0 +1,29 @@
+true - false
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+apple
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+35,19,46,33,37,87,49,67,1,12,36,29 * 75
+const findSmallestNumber = numbers => Math.min(...numbers);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+kiwi
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const findSmallestNumber = numbers => Math.min(...numbers);
+95 * 94
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+76 - kiwi
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+grape + 8
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+function addNumbers(a, b) { return a + b; }
+kiwi / 69,1,68,7,51,61,83,12,58,80,73,46,74,23,60,25,87,72,91,86,80,86,52,9,71,73,59,18,37,7,12,28,52,65,49,53,0,93,5,62,5,93,3,64,36,9,21,86,19,63,12,49,49,95,47,30,13,88,36,25,46,22,53,96,57,21,97,56,37,71,53,7,79,83,13,11,83,38,54,51,78,42,91,50,57,79,63,0,19,71
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getRandomSubset = (array, size) => array.slice(0, size);
+true + true
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
